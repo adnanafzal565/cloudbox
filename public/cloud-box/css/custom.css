@@ -1,0 +1,12 @@
+.disabled {
+    color: lightgray !important;
+}
+
+.dropdownFileGridButton.dropdown-toggle::after,
+#form-search .dropdown-toggle:after {
+    display: none !important;
+}
+
+.ri-more-fill {
+    cursor: pointer !important;
+}
