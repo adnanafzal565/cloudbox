@@ -309,7 +309,9 @@
                                 </span>
                             </div>
                             <p>{ getPercentage() }% Full - { bytesToSize(state.user.storage_total - state.user.storage_used) } Free</p>
-                            <a href="#" className="btn btn-outline-primary view-more mt-4">Buy Storage</a>
+                            <a href="#" onClick={ function () {
+                              $("#buyNowModal").modal("show")
+                            } } className="btn btn-outline-primary view-more mt-4">Buy Premium Version</a>
                           </>
                         ) : null }
                       </>
@@ -530,6 +532,25 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="buyNowModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Buy Premium Version ($100 USD)</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <p><a href="https://apps.adnan-tech.com/files" target="_blank">See all features</a></p>
+            <p>Contact: <b>support@adnan-tech.com</b></p>
+          </div>
+        </div>
+      </div>
     </div>
 
     <script type="text/babel" src="{{ asset('/cloud-box/components/EditFile.js?v=' . time()) }}"></script>
