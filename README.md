@@ -1,6 +1,6 @@
 <p align="center"><img src="public/img/laravel-react.png" width="400" alt="Laravel and React" /></p>
 
-## CloudBox
+## File Manager app in Laravel and React JS
 
 <p>This is a free version of an online cloud platform I created in Laravel and React JS. It allows users to upload files and share with others.</p>
 
@@ -37,7 +37,7 @@
 
     'host' => '127.0.0.1',
     'port' => '3306',
-    'database' => 'cloud_box_free',
+    'database' => 'file_manager',
     'username' => 'root',
     'password' => '',
 
@@ -45,7 +45,7 @@
 ],
 ```
 
-Create a database named "cloud_box_free" in your phpMyAdmin.
+Create a database named "file_manager" in your phpMyAdmin.
 
 2. At root folder, run the following commands:
 

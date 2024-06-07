@@ -1,5 +1,5 @@
 <?php
 
 return [
-    "app_name" => "CloudBox"
+    "app_name" => "File Manager"
 ];
