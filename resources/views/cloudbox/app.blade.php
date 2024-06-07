@@ -547,6 +547,7 @@
 
           <div class="modal-body">
             <p><a href="https://apps.adnan-tech.com/files" target="_blank">See all features</a></p>
+            <p>Let us know for re-branding and customizations.</p>
             <p>Contact: <b>support@adnan-tech.com</b></p>
           </div>
         </div>
