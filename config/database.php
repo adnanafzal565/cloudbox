@@ -50,7 +50,7 @@ return [
 
             'host' => '127.0.0.1',
             'port' => 3306,
-            'database' => 'cloud_box_free',
+            'database' => 'file_manager_free',
             'username' => 'root',
             'password' => 'root',
 
