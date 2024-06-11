@@ -48,7 +48,9 @@
 
 Create a database named "file_manager" in your phpMyAdmin.
 
-2. At root folder, run the following commands:
+2. Rename file ".env.example" to just ".env"
+
+3. At root folder, run the following commands:
 
 (You can write any name, email or password of your choice for super admin while running 5th command)
 
