@@ -16,9 +16,10 @@
 8. Admin panel
 9. Dynamic SMTP settings from admin panel
 10. Chat between user and admin (with attachments)
-11. Upload files
+11. Upload files (public or private)
 12. Share files
 13. Trash can
+14. Collaboration for teams
 
 ### Tech stack
 
